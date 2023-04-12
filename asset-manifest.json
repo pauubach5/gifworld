@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "https://pauubach5.github.io/gifworld/static/css/main.9446c46a.css",
+    "main.js": "https://pauubach5.github.io/gifworld/static/js/main.2da7ac16.js",
+    "index.html": "https://pauubach5.github.io/gifworld/index.html",
+    "main.9446c46a.css.map": "https://pauubach5.github.io/gifworld/static/css/main.9446c46a.css.map",
+    "main.2da7ac16.js.map": "https://pauubach5.github.io/gifworld/static/js/main.2da7ac16.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9446c46a.css",
+    "static/js/main.2da7ac16.js"
+  ]
+}
