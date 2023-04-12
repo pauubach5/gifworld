@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/gifworld/static/css/main.9446c46a.css",
-    "main.js": "/gifworld/static/js/main.fef30204.js",
+    "main.js": "/gifworld/static/js/main.b7edab53.js",
     "index.html": "/gifworld/index.html",
     "main.9446c46a.css.map": "/gifworld/static/css/main.9446c46a.css.map",
-    "main.fef30204.js.map": "/gifworld/static/js/main.fef30204.js.map"
+    "main.b7edab53.js.map": "/gifworld/static/js/main.b7edab53.js.map"
   },
   "entrypoints": [
     "static/css/main.9446c46a.css",
-    "static/js/main.fef30204.js"
+    "static/js/main.b7edab53.js"
   ]
 }
