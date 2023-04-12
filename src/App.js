@@ -11,7 +11,7 @@ export default function App() {
     <div className="App">
       <section className="App-content">
         <Link to='/home'><h4 className='highlight-title'>GifWorld</h4></Link>
-        <Route component={Main} path='/' />
+        <Route component={Main} path='/gifworld' />
         <GifsContextProvider>
           <Route component={Home} path='/home' />
           <Route component={SearchResults} path='/search/:keyword' />
