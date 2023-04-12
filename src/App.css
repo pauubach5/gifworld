@@ -1,0 +1,164 @@
+.App {
+  text-align: center;
+}
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* MAIN WELCOME SECTION*/
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+}
+.title-main {
+  font-size: 6rem;
+  margin: 12rem 0 5rem 0;
+  color: #FF6B81;
+}
+
+.highlight-title {
+  color: #FF6B81;
+}
+
+.highlight-text {
+  color: #8E44AD;
+}
+
+.welcome-content {
+  font-size: 2.5rem;
+  width: 65%;
+  font-weight: 500;
+  line-height: 2;
+  text-align: center;
+  color: #f0f0f0;
+  margin-bottom: 8rem;
+}
+
+.button-main {
+  border-radius: 10px;
+  padding: .9rem 1.6rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: #8E44AD;
+  color: #f0f0f0;
+  cursor: pointer;
+}
+
+button {
+  background: #09f;
+  border: 0;
+  color: var(--theme-body-txt);
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 0 10px 10px 0;
+}
+
+a {
+  color: #09f;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  display: flex;
+  margin: 0 auto 30px;
+  justify-content: center;
+}
+
+input[type=text] {
+  border-radius: 10px 0 0 10px;
+  font-size: 16px;
+  border: none;
+  padding: 4px 16px;
+}
+.App-title {
+  color: var(--theme-body-txt);
+  margin-top: 0.6rem;
+}
+
+.App-content {
+  background-color: var(--theme-body-bg);
+  color: var(--theme-body-txt);
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  min-height: 100vh;
+  padding: 16px;
+  text-align: left;
+}
+
+/*----------*/
+
+.App-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.App-wrapper {
+  width: 100%;
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 0 0.5em;
+}
+
+.App-results {
+  flex-shrink: 2;
+  width: 100%;
+}
+
+.App-category {
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+@media screen and (min-width: 55rem) {
+  .App-main {
+    flex-direction: initial;
+  }
+
+  .App-category {
+    position: sticky;
+    top: var(--search-size-mx-h);
+    width: 40%;
+    max-width: 300px;
+  }
+}
+
+.btn {
+  border: 1px solid transparent;
+  padding: .5rem 1rem;
+  background-color: var(--brand-color_3);
+  color: var(--theme-body-txt);
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn[disabled] {
+  opacity: .3;
+  pointer-events: none;
+}
+
+.btn:hover {
+  background-color: var(--brand-color_6);
+}
